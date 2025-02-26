@@ -29,11 +29,11 @@ function comparaNumerosUno(){
 
 function comparaNumerosTreinta(){
     let numeroTreinta = parseInt(prompt("Ingresa el número 30"));
-    let stringTreinta = prompt("Ingresa el número 30 otra vez");
+    let stringTreinta = parseInt(prompt("Ingresa el número 30 otra vez"));
     console.log(typeof(numeroTreinta));
     console.log(typeof(stringTreinta));
     if(numeroTreinta == stringTreinta && typeof(numeroTreinta)!=typeof(stringTreinta)){
-        alert("Las variables numeroTreinta y stringTreinta tienen el mismo valor pero tipos diferentes");
+        alert("Las variables numeroTreinta y stringTreinta tienen el mismo valor el mismo tipo de dato");
     }else{
         alert("Las variables numeroTreinta y stringTreinta no tienen el mismo valor");
     }
